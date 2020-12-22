@@ -18,8 +18,10 @@
 
 <body>
 
-<div class="scp-quizzes-main">
-<div class="scp-quizzes-data">
+
+
+<form action="/action_page.php">
+
   <h3>1. What is the output of the below c code?</h3>
     <pre>
 #include&lt;stdio.h> 
@@ -30,19 +32,42 @@ main(){
    printf("learning");}
 </pre>
 <br/>
-    <input type="radio" id="op1" name="question1">
-       <label for="op1">1. Fastlearning</label><br/>
+    <input type="radio" id="op1.1" name="question1">
+       <label for="op1.1" >1. Fastlearning</label><br/>
 
-    <input type="radio" id="op2" name="question1">
-       <label for="op2" >2. learning</label><br/>
+    <input type="radio" id="op1.2" name="question1">
+       <label for="op1.2" >2. learning</label><br/>
 
-    <input type="radio" id="op3" name="question1">
-       <label for="op3" >3. learningFast</label> <br/>
+    <input type="radio" id="op1.3" name="question1">
+       <label for="op1.3" >3. learningFast</label> <br/>
 
-    <input type="radio" id="op4" name="question1">
-     <label for="op4" >4. Fast</label> <br/>
-	
-	<a href="second_ques.html">NEXT</a>
+    <input type="radio" id="op1.4" name="question1">
+     <label for="op1.4" >4. Fast</label> <br/>
+
+<h3>2. What is the output of the below c code?</h3>
+    <pre>
+#include&lt;stdio.h> 
+main(){
+int i;
+for(i=10;i>0;i--)
+{printf("%d ",i);}}
+</pre>
+<br/>
+    <input type="radio" id="op2.1" name="question1">
+       <label for="op2.1">1. 10 9 8 7 6 5 4 3 2 1 0 </label><br/>
+
+    <input type="radio" id="op2.2" name="question1">
+       <label for="op2.2">2. 9 8 7 6 5 4 3 2 1</label><br/>
+
+    <input type="radio" id="op2.3" name="question1">
+       <label for="op2.3">3. 10 9 8 7 6 5 4 3 2 1 </label> <br/>
+
+    <input type="radio" id="op2.4" name="question1">
+     <label for="op2.4">4. 9 8 7 6 5 4 3 2 1 0 </label> <br/>
+<br/>
+
+	<input type="submit" value="Submit">
+</form>
  </div>
 
 </body>
