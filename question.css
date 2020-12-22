@@ -1,9 +1,5 @@
 
 
-input[type=radio] + label:hover{
-	border:5px solid #0000ff;
-	}
-
 input[type=radio]:checked + label { 
 	text-align: center;
    	background-image: none;
